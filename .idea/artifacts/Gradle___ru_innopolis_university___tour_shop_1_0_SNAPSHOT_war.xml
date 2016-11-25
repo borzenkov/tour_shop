@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : ru.innopolis.university : tour_shop-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/tour_shop</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="tour_shop-1.0-SNAPSHOT.war">
+      <element id="javaee-facet-resources" facet="tour_shop_main/web/Web Gradle : tour_shop-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tour_shop_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: commons-validator:commons-validator:1.5.1" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Gradle: commons-beanutils:commons-beanutils:1.9.2" />
+          <element id="library" level="project" name="Gradle: commons-digester:commons-digester:1.8.1" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.2" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.4-1201-jdbc41/870b0e689b514304461a9c1aba11920dc5de4321/postgresql-9.4-1201-jdbc41.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/tour_shop/exploded/tour_shop-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

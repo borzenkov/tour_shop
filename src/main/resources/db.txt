@@ -1,0 +1,3 @@
+a@a.ru aaa
+b@b.ru bbb
+c@c.ru ccc
